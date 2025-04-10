@@ -9,7 +9,7 @@ A FastAPI-based WebSocket on Windows server supporting both immediate and schedu
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/SashaShapka/websocket.git
    cd websocket
    ```
 
