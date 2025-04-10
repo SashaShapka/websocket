@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# PyCharm project files
+.idea/
+
+# Redis dump
+dump.rdb
+
+# Python egg files
+*.egg-info/
+*.egg
+
+
+# pytest cache
+.pytest_cache/
+
+# JetBrains IDEs
+*.iml

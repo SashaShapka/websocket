@@ -1,0 +1,28 @@
+2025-04-09 23:10:36,633 - socket_logger - INFO - 1040 Send message immediately
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] I'm the leader
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] Published Scheduled broadcast
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] Sent message to: <starlette.websockets.WebSocket object at 0x000001FEF5144340>
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] Sent message to: <starlette.websockets.WebSocket object at 0x000001FEF5147310>
+2025-04-09 23:10:41,424 - socket_logger - INFO - [17372] Sent message to: <starlette.websockets.WebSocket object at 0x000001FEF51C8070>
+2025-04-09 23:10:49,851 - socket_logger - INFO - [1040] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:49,851 - socket_logger - INFO - 1040: Skipping recently notified client: <starlette.websockets.WebSocket object at 0x0000027485231810>
+2025-04-09 23:10:49,851 - socket_logger - INFO - [1040] Sent message to: <starlette.websockets.WebSocket object at 0x00000274852331F0>
+2025-04-09 23:10:49,851 - socket_logger - INFO - [1040] Published Scheduled broadcast
+2025-04-09 23:10:49,856 - socket_logger - INFO - [17372] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:49,856 - socket_logger - INFO - [1040] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:49,856 - socket_logger - INFO - [1040] Sent message to: <starlette.websockets.WebSocket object at 0x00000274852331F0>
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+2025-04-09 23:10:51,434 - socket_logger - INFO - [17372] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:51,434 - socket_logger - INFO - [17372] Published Scheduled broadcast
+2025-04-09 23:10:51,434 - socket_logger - INFO - [1040] Received message from Redis: Scheduled broadcast
+2025-04-09 23:10:57,009 - socket_logger - INFO - Signal 2 received of 1040. Evaluating shutdown...
+2025-04-09 23:10:57,009 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 23:10:57,009 - socket_logger - INFO - [1040] No active clients or timeout reached. Shutting down.
+2025-04-09 23:10:57,029 - socket_logger - INFO - Signal 2 received of 17372. Evaluating shutdown...
+2025-04-09 23:10:57,029 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 23:10:57,029 - socket_logger - INFO - [17372] No active clients or timeout reached. Shutting down.

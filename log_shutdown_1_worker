@@ -1,0 +1,24 @@
+2025-04-09 22:58:20,099 - socket_logger - INFO - Strategy selected: SingleBroadcasterStrategy
+INFO:     ('127.0.0.1', 58246) - "WebSocket /ws" [accepted]
+INFO:     connection open
+2025-04-09 22:58:32,912 - socket_logger - INFO - Signal 2 received of 16176. Evaluating shutdown...
+2025-04-09 22:58:32,912 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 22:58:32,912 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:58:36,337 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:58:37,902 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:58:42,919 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:58:46,438 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:58:47,935 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:58:52,948 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:58:56,521 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:58:57,947 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:02,964 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:06,642 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:59:07,972 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:12,984 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:16,781 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:59:18,002 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:23,010 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:26,868 - socket_logger - INFO - [16176] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x000001AC1F08EB90>
+2025-04-09 22:59:28,028 - socket_logger - INFO -  Pid 16176 Waiting for connections to close... 1 active
+2025-04-09 22:59:33,043 - socket_logger - INFO - [16176] No active clients or timeout reached. Shutting down.

@@ -1,0 +1,103 @@
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started parent process [13684]
+INFO:     Started server process [11940]
+INFO:     Waiting for application startup.
+INFO:     Started server process [6956]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+2025-04-09 23:32:40,591 - socket_logger - INFO - Strategy selected: RedisBroadcasterStrategy
+2025-04-09 23:32:40,591 - socket_logger - INFO - Strategy selected: RedisBroadcasterStrategy
+2025-04-09 23:32:40,606 - socket_logger - INFO - [11940] I'm the leader
+2025-04-09 23:32:40,606 - socket_logger - INFO - [11940] No active clients. Skipping.
+2025-04-09 23:32:50,611 - socket_logger - INFO - [11940] No active clients. Skipping.
+INFO:     ('127.0.0.1', 59136) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     ('127.0.0.1', 59138) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     ('127.0.0.1', 59140) - "WebSocket /ws" [accepted]
+INFO:     connection open
+2025-04-09 23:33:00,618 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:00,618 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:00,618 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:00,618 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:00,618 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:00,619 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:10,637 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:10,637 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:10,637 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:10,637 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:10,637 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:10,637 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:11,914 - socket_logger - INFO - Signal 2 received of 6956. Evaluating shutdown...
+2025-04-09 23:33:11,914 - socket_logger - INFO - Signal 2 received of 11940. Evaluating shutdown...
+2025-04-09 23:33:11,914 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 23:33:11,914 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 23:33:11,914 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:11,914 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+INFO:     Received SIGINT, exiting.
+INFO:     Terminated child process [6956]
+INFO:     Terminated child process [11940]
+INFO:     Waiting for child process [6956]
+2025-04-09 23:33:16,919 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:16,919 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:20,649 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:20,649 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:20,649 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:20,650 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:20,650 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:20,650 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:21,926 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:21,926 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:26,946 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:26,946 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:30,643 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:30,643 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:30,643 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:30,643 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:30,643 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:30,644 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:31,952 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:31,952 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:36,936 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:36,936 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:40,657 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:40,657 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:40,657 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:40,657 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:40,658 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:40,658 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:41,937 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:41,937 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:46,955 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:46,955 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:50,683 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:33:50,683 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:50,683 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:33:50,684 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:33:50,684 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:33:50,684 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:33:51,963 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:51,963 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:33:56,979 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:33:56,979 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:34:00,689 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:34:00,689 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:34:00,689 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:34:00,689 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:34:00,689 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:34:00,690 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:34:01,986 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:34:01,986 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:34:06,988 - socket_logger - INFO -  Pid 6956 Waiting for connections to close... 1 active
+2025-04-09 23:34:06,988 - socket_logger - INFO -  Pid 11940 Waiting for connections to close... 2 active
+2025-04-09 23:34:10,711 - socket_logger - INFO - [11940] Published Scheduled broadcast
+2025-04-09 23:34:10,711 - socket_logger - INFO - [6956] Received message from Redis: Scheduled broadcast
+2025-04-09 23:34:10,711 - socket_logger - INFO - [11940] Received message from Redis: Scheduled broadcast
+2025-04-09 23:34:10,711 - socket_logger - INFO - [6956] Sent message to: <starlette.websockets.WebSocket object at 0x00000212147F5930>
+2025-04-09 23:34:10,711 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F1570>
+2025-04-09 23:34:10,712 - socket_logger - INFO - [11940] Sent message to: <starlette.websockets.WebSocket object at 0x00000232259F31C0>
+2025-04-09 23:34:11,992 - socket_logger - INFO - [6956] No active clients or timeout reached. Shutting down.
+2025-04-09 23:34:11,992 - socket_logger - INFO - [11940] No active clients or timeout reached. Shutting down.
+INFO:     Waiting for child process [11940]
+INFO:     Stopping parent process [13684]

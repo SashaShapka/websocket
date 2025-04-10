@@ -1,0 +1,40 @@
+F:\websocket\.venv\Scripts\python.exe -X pycache_prefix=C:\Users\sasha\AppData\Local\JetBrains\PyCharmCE2024.3\cpython-cache "C:/Program Files/JetBrains/PyCharm Community Edition 2024.3.5/plugins/python-ce/helpers/pydev/pydevd.py" --multiprocess --qt-support=auto --client 127.0.0.1 --port 58192 --file F:\websocket\app.py
+Connected to pydev debugger (build 243.26053.29)
+F:\websocket\app.py:16: DeprecationWarning:
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+  @app.on_event("startup")
+INFO:     Started server process [11152]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-04-09 22:56:22,464 - socket_logger - INFO - Strategy selected: SingleBroadcasterStrategy
+INFO:     ('127.0.0.1', 58203) - "WebSocket /ws" [accepted]
+INFO:     connection open
+2025-04-09 22:56:43,708 - socket_logger - INFO - [11152] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x0000014465A63370>
+2025-04-09 22:56:53,791 - socket_logger - INFO - [11152] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x0000014465A63370>
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58212) - "WebSocket /ws" [accepted]
+INFO:     connection open
+2025-04-09 22:56:56,834 - socket_logger - INFO - 11152 Send message immediately
+INFO:     connection closed
+INFO:     ('127.0.0.1', 58220) - "WebSocket /ws" [accepted]
+INFO:     ('127.0.0.1', 58221) - "WebSocket /ws" [accepted]
+INFO:     ('127.0.0.1', 58222) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection open
+INFO:     connection open
+2025-04-09 22:56:59,885 - socket_logger - INFO - 11152 Send message immediately
+INFO:     connection closed
+2025-04-09 22:57:08,954 - socket_logger - INFO - [11152] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x0000014465AC93C0>
+2025-04-09 22:57:08,954 - socket_logger - INFO - [11152] Sent scheduled message to: <starlette.websockets.WebSocket object at 0x0000014465AC9990>
+INFO:     connection closed
+INFO:     connection closed
+2025-04-09 22:57:12,060 - socket_logger - INFO - Signal 2 received of 11152. Evaluating shutdown...
+2025-04-09 22:57:12,060 - socket_logger - INFO - Graceful shutdown initiated
+2025-04-09 22:57:12,060 - socket_logger - INFO - [11152] No active clients or timeout reached. Shutting down.
+
+Process finished with exit code 0
